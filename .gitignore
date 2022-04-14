@@ -1,0 +1,25 @@
+# Node modules
+node_modules
+
+# Adonis directory for storing tmp files
+tmp
+
+# Environment variables, never commit this file
+# .env
+
+# The development sqlite file
+*.sqlite
+
+# Uploaded recipes
+recipes/
+
+.DS_Store
+public/terms.html
+public/privacy.html
+
+resources/announcements/*.json
+!resources/announcements/version.json
+npm-debug.log
+yarn-error.log
+server*.log
+.idea
